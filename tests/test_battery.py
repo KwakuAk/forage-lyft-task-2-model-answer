@@ -20,6 +20,7 @@ class testNubbinBattery(unittest.TestCase):
         self.assertFalse(nubbinBattery.needs_service())
 
 
+
 class testSpindlerBattery(unittest.TestCase):
     def test_battery_should_be_serviced(self):
         current_date = datetime.today().date()

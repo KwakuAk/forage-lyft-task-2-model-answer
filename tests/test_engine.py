@@ -18,6 +18,7 @@ class testSternmanEngine(unittest.TestCase):
         sternmanEngine = SternmanEngine(warning_light_is_on)
         self.assertFalse(sternmanEngine.needs_service())
 
+
 class testCapuletEngine(unittest.TestCase):
     def test_engine_should_be_serviced(self):
         current_mileage = 30001
